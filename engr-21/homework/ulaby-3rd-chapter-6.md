@@ -10,14 +10,13 @@ Ulaby, F., Maharbiz, M., & Furse, C. (2025). _Circuit Analysis and Design._ No I
 ## Homework Answers
 
 <details>
-<summary><h3>Problem 6.1</h3></summary>
+<summary style="font-size: 1.17em; font-weight: 700; cursor: pointer;">Problem 6.1</summary>
 
 1. $v_C(0)=$, $i_L(0)=$
 
 </details>
 
 ### Problem 6.3
-<h3>hi</h3>
 
 
 

@@ -1,0 +1,11 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+summary {
+  font-size: 1.17em;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none; /* Prevents accidental text highlighting on click */
+}
