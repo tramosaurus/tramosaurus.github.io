@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en-US' }}">
+<!doctype html>
+<html>
   <head>
- <!--   <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>{{ page.title | default: site.title }}</title>
-   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"> -->
-    
- <!--    {% seo %}
-    {% include head-custom.html %} -->
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+
     <script>
     MathJax = {
     tex: {
@@ -17,7 +11,9 @@
     }
     };
     </script>
+    
     <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
+
   </head>
   <body>
     {{ content }}
