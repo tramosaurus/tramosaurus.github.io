@@ -1,5 +1,3 @@
-<script src="https://rawcdn.githack.com/oscarmorrison/md-page/master/md-page.js"></script><noscript>
-
 # ENGR 21 - Chapter 5 Part 2 Answers
 
 <style type="text/css">
@@ -15,7 +13,7 @@ Ulaby, F., Maharbiz, M., & Furse, C. (2025). _Circuit Analysis and Design._ No I
 <details>
 <summary>## Problem 5.33</summary>
 
-1. $v(t)=100e^{-25t} \text{ V}$
+1. $`v(t)=100e^{-25t} \text{ V}`$
 2. $v_0(t)=60e^{-25t} \text{ V}$
 3. $i_0(t)=e^{-25t} \text{ mA}$
 4. $p(t)=60e^{-50t} \text{ mA}$
