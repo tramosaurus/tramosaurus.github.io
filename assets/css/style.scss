@@ -12,3 +12,7 @@ summary {
   cursor: pointer;
   user-select: none; /* Prevents accidental text highlighting on click */
 }
+
+summary {
+  margin: 0 0 20px;
+}
