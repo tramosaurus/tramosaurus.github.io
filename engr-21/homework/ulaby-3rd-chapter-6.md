@@ -1,4 +1,4 @@
-# ENGR 21 - Chapter 6 Answers
+# ENGR 21 Chapter 6 Answers
 
 Answers are for problems assigned from the following resource:
 
