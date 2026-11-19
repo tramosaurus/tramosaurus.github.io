@@ -1,8 +1,17 @@
-# ENGR 21 - Chapter 5 Part 2 Answers
-
 <style type="text/css">
     ol { list-style-type: upper-alpha; }
 </style>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
+</script>
+<script id="MathJax-script" async src="https://jsdelivr.net"></script>
+
+# ENGR 21 - Chapter 5 Part 2 Answers
 
 Answers are for problems assigned from the following resource:
 
