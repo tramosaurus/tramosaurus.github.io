@@ -25,7 +25,7 @@ While the circuits we’re going to be building in this class are all designed t
 
 Electricity can cause fatal burns or cause vital organs to malfunction. It all depends on how much, how long, and where. In general, a current of 5 mA or less will cause a sensation of shock, but rarely any damage. Larger currents can cause hand muscles to contract. Currents on the order of 100 mA are often fatal if they pass through the body for even a few seconds. The chart below shows the general relationship between the degree of injury and amount of current for a 60-cycle hand-to-foot path of one second's duration of shock.
 
-*Table 1: Table 1. Effects of a range of electrical current passing through the human body.*
+*Table 1: Effects of a range of electrical current passing through the human body.*
 {: .table-caption}
 
 | Current (mA) | Reaction |
@@ -176,10 +176,14 @@ Watch the video on breadboarding basics:
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe 
     src="https://www.youtube.com/embed/6WReFkfrUIk" 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+    style="position: absolute; top: 0; left: 0; max-width: 750px; width=100%; height: auto; border: 0;" 
 	allowfullscreen>
   </iframe>
 </div>
+
+
+<iframe width="661" height="372" src="https://www.youtube.com/embed/6WReFkfrUIk" title="How to Use a Breadboard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
 ### How a Breadboard is Constructed
 
@@ -223,9 +227,9 @@ ICs can come in all different shapes and sizes, depending on the application. Th
  
 
 
-### How to Power the Breadboard
+## How to Power the Breadboard
 
-How to Effectively Use the Power Strips
+### How to Effectively Use the Power Strips
 
 The two vertical columns of pins on either side of the main area are reserved for source voltages and ground connections. These columns are available along the entire length of the board, since power and ground often need to be accessed at many points in a circuit. 
 
@@ -238,11 +242,11 @@ Watch the following video on powering your protoboard using the benchtop power s
 How to use the bench-top power supply [TD3.1]
 
 
-How to Use the Digilent Analog Discovery 3
+### How to Use the Digilent Analog Discovery 3
 
 The following video shows you how to use the previously released device, the Analog Discovery 2, to power your protoboard: Had to use the Digilent Analog Discovery[TD4.1]
 
-How to use the Power-to-Breadboard Adapter
+### How to use the Power-to-Breadboard Adapter
 
 
 In the off-chance that you’ll be borrowing components from us to work on labs at home, the take-home kits comes with two special adapters that will allow you to connect the 12V wall adapters to screw terminals and wires leading to the breadboard. When properly set up with grey and white wires, they look like this:
