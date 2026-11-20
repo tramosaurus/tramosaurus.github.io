@@ -8,8 +8,6 @@ Answers are for problems assigned from the following resource:
 
 {{ site.e21 }}
 
-Test: {{ page.url }}
-
 ## Homework Answers
 
 <details markdown="1">
