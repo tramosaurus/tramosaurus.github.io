@@ -120,7 +120,7 @@ $v_C(t)=\frac{4}{3}+\left[ \frac{20}{3} \cos (745.4t)+5.96 \sin (745.4t) \right]
 <summary>Problem 6.52</summary>
 
 1. $i_L(0)=\frac{V_s}{R_S+R_2}$<br>$v_L(0)=0$
-2. $i_L''+ \left(\frac{R_2}{L}+\frac{1}{R_1 C} \right)i_L'+\left(\frac{R_1+R_2}{LCR_1} \right)i_L=0$
+2. $i_L^{\prime\prime}+ \left(\frac{R_2}{L}+\frac{1}{R_1 C} \right)i_L^{\prime}+\left(\frac{R_1+R_2}{LCR_1} \right)i_L=0$
 3. $i_L(t)=(3 \cos 0.433t + 5.2 \sin 0.433t)e^{-0.75t} \text{ A, for } t \geq 0$
 
 </details>
@@ -128,7 +128,7 @@ $v_C(t)=\frac{4}{3}+\left[ \frac{20}{3} \cos (745.4t)+5.96 \sin (745.4t) \right]
 <details markdown="1">
 <summary>Problem 6.53</summary>
 
-$i_L''+10^4i_L'+10^7i_L=360$<br>
+$i_L^{\prime\prime}+10^4i_L^{\prime}+10^7i_L=360$<br>
 $i_L(t)=(36-41.2e^{-1127t}+5.24e^{-8873t}) \text{ }\mu\text{A, for } t \geq 0$
 
 </details>
