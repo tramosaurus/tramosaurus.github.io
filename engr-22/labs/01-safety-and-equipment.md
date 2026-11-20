@@ -144,7 +144,11 @@ You can use the following image to help you determine the nominal value of your 
 
  
 <div class="e22-lab-activity">
+
 #### Complete Activity 2: Identifying Resistor and Resistor Color Codes
+
+The full directions for the activity can be found on your Data and Answer Sheet.
+
 </div>
 
 ## At Home Use: Installing Software
