@@ -14,10 +14,14 @@ Ulaby, F., Maharbiz, M., & Furse, C. (2025). _Circuit Analysis and Design._ No I
 
 ## Homework Answers
 
-### Problem 5.33
+<details markdown="1">
+<summary>Problem 5.33</summary>
+
 1. $v(t)=100e^{-25t} \text{ V}$
 2. $v_0(t)=60e^{-25t} \text{ V}$
 3. $i_0(t)=e^{-25t} \text{ mA}$
 4. $p(t)=60e^{-50t} \text{ mA}$
 
-### Problem 
+</details>
+
+{{ site.e21}}
