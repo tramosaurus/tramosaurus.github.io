@@ -8,10 +8,6 @@ Answers are for problems assigned from the following resource:
 
 {{ site.e21 }}
 
-## Required Homework Problems
-
-1, 10, 11, 18 , 24 , 28, 30, 32, 33, 35, 43, 45, 52, 53
-
 ## Homework Answers
 
 <details markdown="1">
