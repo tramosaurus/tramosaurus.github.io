@@ -142,8 +142,10 @@ $$
 You can use the following image to help you determine the nominal value of your resistor
 
 
- ’
+ 
+<div class="e22-lab-activity">
 #### Complete Activity 2: Identifying Resistor and Resistor Color Codes
+</div>
 
 ## At Home Use: Installing Software
 
