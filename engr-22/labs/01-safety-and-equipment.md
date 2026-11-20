@@ -25,6 +25,9 @@ While the circuits we’re going to be building in this class are all designed t
 
 Electricity can cause fatal burns or cause vital organs to malfunction. It all depends on how much, how long, and where. In general, a current of 5 mA or less will cause a sensation of shock, but rarely any damage. Larger currents can cause hand muscles to contract. Currents on the order of 100 mA are often fatal if they pass through the body for even a few seconds. The chart below shows the general relationship between the degree of injury and amount of current for a 60-cycle hand-to-foot path of one second's duration of shock.
 
+*Table 1: Table 1. Effects of a range of electrical current passing through the human body.*
+{: .table-caption}
+
 | Current (mA) | Reaction |
 | :---: | --- |
 | 1	| Perception level |
@@ -33,8 +36,6 @@ Electricity can cause fatal burns or cause vital organs to malfunction. It all d
 | 50-150 | Extreme pain, respiratory arrest, sever muscular contraction |
 | 1,000-4,300 | Ventricular fibrillation |
 | 10,000+ | Cardiac arrest, severe burns, and probable death |
-
-<table><caption>Table 1. Effects of a range of electrical current passing through the human body.</table></caption>
 
 ### Is it Safe to Touch?
 
@@ -174,9 +175,9 @@ Watch the video on breadboarding basics:
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe 
-    src="https://youtu.be/6WReFkfrUIk" 
+    src="https://www.youtube.com/embed/6WReFkfrUIk" 
     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
-    allowfullscreen>
+	allowfullscreen>
   </iframe>
 </div>
 
