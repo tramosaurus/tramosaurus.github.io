@@ -17,12 +17,35 @@ summary {
   margin: 0 0 20px;
 }
 
-@media print, screen and (min-width: 960px) {
+/*@media print, screen and (min-width: 960px) {
   footer {
     position: static;
     float: none;
     clear: both;
     width: 100%;
     padding-top: 30px;
+  }
+}*/
+
+@media print, screen and (min-width: 960px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  header, footer {
+    position: static;
+    width: 270px;
+  }
+
+  section {
+    width: 500px;
+    margin-left: auto;
+  }
+
+  footer {
+    margin-top: 20px;
+    align-self: flex-end;
   }
 }
