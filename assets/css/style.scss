@@ -23,3 +23,10 @@ footer {
   width: auto;
   margin-top: 30px;
 }
+
+.responsive-frame {
+  display: block;
+  width: 100%;
+  max-width: 750px; /* Change to your desired max width */
+  border: 0;
+}
