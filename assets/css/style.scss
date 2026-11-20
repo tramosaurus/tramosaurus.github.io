@@ -17,15 +17,12 @@ summary {
   margin: 0 0 20px;
 }
 
-/*@media print, screen and (min-width: 960px) {
-  footer {
-    position: static;
-    float: none;
-    clear: both;
-    width: 100%;
-    padding-top: 30px;
-  }
-}*/
+footer {
+  position: static;
+  float: none;
+  width: auto;
+  margin-top: 30px;
+}
 
 /*@media print, screen and (min-width: 960px) {
   .wrapper {
@@ -49,9 +46,3 @@ summary {
     align-self: flex-end;
   }
 }*/
-
-@media print, screen and (min-width: 960px) {
-  section {
-    padding-bottom: 120px; /* Adjust based on your footer's height */
-  }
-}
