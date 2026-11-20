@@ -24,15 +24,13 @@ Answers are for problems assigned from the following resource:
 <details markdown="1">
 <summary>Problem 5.35</summary>
 
-<div markdown="0">
-$
-v_C(t)= 
+1. <span markdown="0"> 
+$v_C(t)= 
 \begin{cases}
     24\left(t-e^{-0.25t}\right)\text{ V,} & 0 \leq t \leq 5 \text{ s} \\\\
     12+5.12e^{-0.5(t-5)}\text{ V,} & t > 5 \text{ s}
-    \end{cases}
-$
-</div>
+    \end{cases}$
+</span>
 
 </details>
 
@@ -52,7 +50,20 @@ $v_C(t)=14e^{-11.67t}\text{ V}$
 
 </details>
 
+<details markdown="1">
+<summary>Problem 3.41</summary>
 
+$i(t)=\left(2.67+0.33e^{-30t}\right)\text{ mA}$
+
+</details>
+
+<details markdown="1">
+<summary>Problem 3.46</summary>
+
+1. $i_L(0^-)=0$ <br> $v_L(0^-)=0$
+2. 
+
+</details>
 
 ## Answers to In-Class Examples
 
