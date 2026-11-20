@@ -13,4 +13,4 @@ This site is a way for me to share resources and docs. This includes typed-up no
 - ENGR 12: Statics
 - ENGR 16: Dynamics
 - [ENGR 21: Circuit Analysis Lecture](/engr-21/engr-21)
-- ENGR 22: Circuit Analysis Lab
+- [ENGR 22: Circuit Analysis Lab](/engr-22/engr-22)
