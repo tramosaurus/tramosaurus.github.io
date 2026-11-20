@@ -4,7 +4,9 @@ date: "2026-19-11"
 author: "T. Dang"
 ---
 
-Click on the appropriate resource below.
+Materials for this course are loosely based on the following textbook:
+
+{{ site.e21 }}
 
 ## Class Notes by Topic
 - Introduction
