@@ -24,7 +24,7 @@ Answers are for problems assigned from the following resource:
 <details markdown="1">
 <summary>Problem 5.35</summary>
 
-1. <span markdown="0"> 
+<span markdown="0"> 
 $v_C(t)= 
 \begin{cases}
     24\left(t-e^{-0.25t}\right)\text{ V,} & 0 \leq t \leq 5 \text{ s} \\\\
@@ -65,6 +65,40 @@ $i(t)=\left(2.67+0.33e^{-30t}\right)\text{ mA}$
 3. $i_L(\infty)=0.4\text{ A}$ <br> $v_L(\infty)=0$
 4. $i_L(t)=0.4\left(1-e^{-100t}\right)\text{ A}$
 5. $v_L(t)=8e^{-100t}\text{ V}$
+
+</details>
+
+<details markdown="1">
+<summary>Problem 3.48</summary>
+
+$i_L(t)=2e^{-100t/3}\text{ A}$
+
+</details>
+
+<details markdown="1">
+<summary>Problem 3.49</summary>
+
+<span markdown="0">
+$i_L(t)=
+\begin{cases}
+    4\left(1-e^{-3t})\right)\text{ A} & 0 \leq t \leq 0.05\text{ s} \\\\
+    \left(4-0.89e^{-2(t-0.25)}\right)\text{ A} & t > 0.5 \text{ s}
+\end{cases}$
+</span>
+
+</details>
+
+<details markdown="1">
+<summary>Problem 3.50</summary>
+
+$i_1(t)=2.88e^{-10t}\text{ mA}$ <br> $i_2(t)=0.72e^{-20t}\text{ mA}$
+
+</details>
+
+<details markdown="1">
+<summary>Problem 3.51</summary>
+
+$i_L(t)=0.55\left(1-e^{-t/0.65}\right)\text{ A}$
 
 </details>
 
