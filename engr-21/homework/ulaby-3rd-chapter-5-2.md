@@ -24,12 +24,12 @@ Answers are for problems assigned from the following resource:
 <details markdown="1">
 <summary>Problem 5.35</summary>
 
-$$
+$
 v_C(t)= \begin{cases}
     24\left(t-e^{-0.25t}\right)\text{ V,} & 0 \leq t \leq 5 \text{ s} \\\\
     12+5.12e^{-0.5(t-5)}\text{ V,} & t > 5 \text{ s}
     \end{cases}
-$$
+$
 
 </details>
 
