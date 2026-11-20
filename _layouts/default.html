@@ -32,6 +32,15 @@
   </body>
   <footer class="site-footer">
     <div>
+      
+      {% if page.title contains "Welcome to Tram's Resources Github" %}
+
+      {% else %}
+      <p>
+        Spotted a mistake? Raise an issue on my 
+        <a href="https://github.com/tramosaurus/tramosaurus.github.io/issues">Github Repo</a>.
+      </p>
+      {% endif %}
       <p>
         {% if page.title contains "Welcome to Tram's Resources Github" %}
 
