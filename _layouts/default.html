@@ -19,6 +19,12 @@
     
     <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
 
+    {% if page.title contains "Homework" %}
+    <style type="text/css">
+    ol { list-style-type: upper-alpha; }
+    </style>
+    {% endif %}
+
   </head>
   <body>
     <h1>{{ page.title }}</h1>

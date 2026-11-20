@@ -1,20 +1,16 @@
 ---
-title: "ENGR 21 - Chapter 5 Part 2 Answers"
+title: "ENGR 21 - Chapter 5 Part 2 Homework Answers"
 date: "2026-11-19"
 author: "T. Dang"
 ---
 
-<style type="text/css">
-    ol { list-style-type: upper-alpha; }
-</style>
-
 Answers are for problems assigned from the following resource:
 
-Ulaby, F., Maharbiz, M., & Furse, C. (2025). _Circuit Analysis and Design._ No Imprint. <https://doi.org/10.3998/mpub.13162125>
+{{ site.e21 }}
 
 ## Homework Answers
 
-<details markdown="1">
+<details>
 <summary>Problem 5.33</summary>
 
 1. $v(t)=100e^{-25t} \text{ V}$
@@ -23,5 +19,3 @@ Ulaby, F., Maharbiz, M., & Furse, C. (2025). _Circuit Analysis and Design._ No I
 4. $p(t)=60e^{-50t} \text{ mA}$
 
 </details>
-
-{{ site.e21 }}
