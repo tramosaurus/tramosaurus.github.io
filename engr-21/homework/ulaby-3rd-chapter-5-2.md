@@ -61,7 +61,10 @@ $i(t)=\left(2.67+0.33e^{-30t}\right)\text{ mA}$
 <summary>Problem 3.46</summary>
 
 1. $i_L(0^-)=0$ <br> $v_L(0^-)=0$
-2. 
+2. $i_L(0)=0$ <br> $v_L(0)=8\text{ V}$
+3. $i_L(\infty)=0.4\text{ A}$ <br> $v_L(\infty)=0$
+4. $i_L(t)=0.4\left(1-e^{-100t}\right)\text{ A}$
+5. $v_L(t)=8e^{-100t}\text{ V}$
 
 </details>
 
