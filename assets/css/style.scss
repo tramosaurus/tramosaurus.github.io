@@ -16,3 +16,13 @@ summary {
 summary {
   margin: 0 0 20px;
 }
+
+@media print, screen and (min-width: 960px) {
+  footer {
+    position: static;
+    float: none;
+    clear: both;
+    width: 100%;
+    padding-top: 30px;
+  }
+}
