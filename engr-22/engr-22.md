@@ -8,4 +8,4 @@ This is the lab course that accompanies the lecture course ENGR 21. This course 
 
 ## Labs
 
-- [Lab 1: Safety and Equipment](/engr-22/engr-22)
+- [Lab 1: Safety and Equipment](/engr-22/labs/01-safety-and-equipment)
