@@ -10,7 +10,7 @@ Answers are for problems assigned from the following resource:
 
 ## Homework Answers
 
-<details>
+<details markdown="1">
 <summary>Problem 5.33</summary>
 
 1. $v(t)=100e^{-25t} \text{ V}$
