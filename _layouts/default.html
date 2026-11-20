@@ -28,15 +28,15 @@
     <div>
       <p>
         {% if page.title contains "Welcome to Tram's Resources Github" %}
-          
+
         {% elsif page.title contains "ENGR 21 - Chapter" %}
           <a href="https://tramosaurus.github.io/engr-21/engr-21">Back to ENGR 21 Home</a>
         {% elsif page.title contains "PHYSCS 21 - Chapter" %}
           Back to PHYSCS 21
         {% else %}
-          Back to Main Page
+          <a href="https://tramosaurus.github.io/">Back to tramosaurus.github.io</a>
         {% endif %}
-          <br>Updated {{ page.date }} by {{ page.author }}
+          <br>Updated on {{ page.date }} by {{ page.author }}
       </p>
     </div>
   </footer>
