@@ -63,4 +63,5 @@ The full directions for the activity can be found on your Activity Data Record S
 <div style="float: right">
 
 Ready to move on? [Go to Part 2.](/engr-22/lab-01/01-safety-and-equipment-2)
+
 </div>
