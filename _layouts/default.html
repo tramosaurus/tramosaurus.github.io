@@ -21,25 +21,22 @@
 
   </head>
   <body>
+    <title>{{ page.title }}</title>
     {{ content }}
   </body>
   <footer class="site-footer">
     <div>
       {% if page.title contains "ENGR 21 - Chapter" %}
       <p>
-        <a href="https://tramosaurus.github.io/engr-21/engr-21">Back to ENGR 21</a>
-      </p>
+        <a href="https://tramosaurus.github.io/engr-21/engr-21">Back to ENGR 21 Home</a>
       {% elsif page.title contains "PHYSCS 21 - Chapter" %}
       <p>
         Back to PHYSCS 21
-      </p>
       {% else %}
       <p>
         Back to Main Page
-      </p>
       {% endif %}
-      <p>
-        Updated {{ page.date }} by {{ page.author }}
+        <br>Updated {{ page.date }} by {{ page.author }}
       </p>
     </div>
   </footer>

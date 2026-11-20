@@ -1,3 +1,9 @@
+---
+title: "Welcome to Tram's Resources Github"
+date: "2026-11-19"
+author: "T. Dang"
+---
+
 # Welcome to Tram's Resources Github
 
 This site is a way for me to share resources and docs. This includes typed-up notes for her courses, homework answers, and some labs. Please click on the appropriate course below.
