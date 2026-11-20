@@ -24,10 +24,12 @@ Answers are for problems assigned from the following resource:
 <details markdown="1">
 <summary>Problem 5.35</summary>
 
-$v_C(t)= \begin{cases}
+$$
+v_C(t)= \begin{cases}
     24\left(t-e^{-0.25t}\right)\text{ V,} & 0 \leq t \leq 5 \text{ s} \\\\
     12+5.12e^{-0.5(t-5)}\text{ V,} & t > 5 \text{ s}
-    \end{cases}$
+    \end{cases}
+$$
 
 </details>
 
@@ -37,6 +39,16 @@ $v_C(t)= \begin{cases}
 $v_C(t)=14e^{-11.67t}\text{ V}$
 
 </details>
+
+<details markdown="1">
+<summary>Problem 3.38</summary>
+
+1. For the circuit, $C_\text{eq}=2\mu\text{F}$, and $R=R_2$. <br> $v_1(0^-)=0$ <br> $v_2(0^-)=10\text{ V}$
+2. $i(t)=-0.2e^{-10t}\text{ mA}$
+3. $v_1(t)=3.7\left(1-e^{-10t}\right)\text{ V}$ <br> $v_2(t)=\left(6.7+3.3e^{-10t}\right)\text{ V}$
+
+</details>
+
 
 
 ## Answers to In-Class Examples
