@@ -79,6 +79,9 @@ To figure out the resistance value of a four-band resistor, start by finding the
 
 The first three color bands are arranged as follows: the first band, the second band, and the multiplier band. For these three bands, each color represents a different value, which can be found in the chart below. (The final column represents a mnemonic device to help you remember.)
 
+_Table 2. Resistor color and the corresponding value._
+{: .table-caption}
+
 | Value | Color | Word |
 | :---: | :---: | :---: |
 | 0 | Black | Black |
@@ -92,7 +95,7 @@ The first three color bands are arranged as follows: the first band, the second 
 | 8 | Gray | Grow |
 | 9 | White | Wonderfully |
 
-Table 2. Resistor color and the corresponding value.
+
 
 You can use the mnemonic device to help you remember: 
 
@@ -106,18 +109,21 @@ $$
 
 Five-band resistors are similar, except that the first three bands represent the three significant digits of the resistor value. The fourth band represents the multiplier. In addition to the values from the above table, the multiplier band can also be gold or silver, which represent $0.1$ and $0.01$, respectively.
 
+_Table 3. Extra multiplier color bands and their corresponding values._
+{: .table-caption}
+
 | Value | Color |
 | :---: | :---: |
 | 0.1 | Gold |
 | 0.01 | Silver |
 
-Table 3. Extra multiplier color bands and their corresponding values.</
-
 ### Resistance Tolerances
 
 Resistors are never manufactured to exact values—it would be too expensive. Instead, the manufacturer guarantees that a resistor value will fall within the tolerance range specified by the last band, called the tolerance band. A resistor with a gold band for the tolerance will be guaranteed to fall within 5% of the nominal value. The table of tolerance colors is given below.
 
-Table 4. Resistor color bands and their corresponding tolerance values.
+_Table 4. Resistor color bands and their corresponding tolerance values._
+{: .table-caption}
+
 | Tolerance | Color |
 | :---:| :---: |
 | 1% | Brown |
