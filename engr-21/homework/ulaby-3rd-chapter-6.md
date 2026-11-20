@@ -1,6 +1,7 @@
 ---
 title: "ENGR 21 - Chapter 6 Answers"
 date: "2026-11-19"
+author: "T. Dang"
 ---
 
 <style type="text/css">

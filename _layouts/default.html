@@ -25,16 +25,21 @@
   </body>
   <footer class="site-footer">
     <div>
-      <p><a href="https://tramosaurus.github.io/">tramosaurus.github.io</a></p>
-      {% if page.title contains "ENGR 21" %}
-      <p>ENGR 21</p>
-      {% elsif page.title contains "PHYSCS 21" %}
-      <p>PHYSCS 21</p>
+      {% if page.title contains "ENGR 21 - Chapter" %}
+      <p>
+        <a href="https://tramosaurus.github.io/engr-21/engr-21">Back to ENGR 21</a>
+      </p>
+      {% elsif page.title contains "PHYSCS 21 - Chapter" %}
+      <p>
+        Back to PHYSCS 21
+      </p>
       {% else %}
-      <P>back home to github</P>
+      <p>
+        Back to Main Page
+      </p>
       {% endif %}
       <p>
-        &copy; {{ "now" | date: "%Y" }} T. Dang
+        Updated {{ page.date }} by {{ page.author }}
       </p>
     </div>
   </footer>
