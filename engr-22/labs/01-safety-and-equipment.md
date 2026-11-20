@@ -52,7 +52,7 @@ Disconnect the power source if you smell anything burning. The smell of burning 
 - **Always use common sense and pay attention to the task you are working on.**
 - **If at any time you are not sure how to handle a particular situation, ask the instructor for advice.**
 
-#### Complete Activity : Safety Hazards Related to Electricity and Electronics Equipment
+#### Complete Activity 1: Safety Hazards Related to Electricity and Electronics Equipment
 
 ## Reading Resistor Codes
 
@@ -92,7 +92,7 @@ The first three color bands are arranged as follows: the first band, the second 
 | 8 | Gray | Grow |
 | 9 | White | Wonderfully |
 
-<table><caption>Table 2. Resistor color and the corresponding value.</caption></table>
+Table 2. Resistor color and the corresponding value.
 
 You can use the mnemonic device to help you remember: 
 
@@ -111,12 +111,13 @@ Five-band resistors are similar, except that the first three bands represent the
 | 0.1 | Gold |
 | 0.01 | Silver |
 
-<table></caption>Table 3. Extra multiplier color bands and their corresponding values.</caption></table>
+Table 3. Extra multiplier color bands and their corresponding values.</
 
 ### Resistance Tolerances
 
 Resistors are never manufactured to exact values—it would be too expensive. Instead, the manufacturer guarantees that a resistor value will fall within the tolerance range specified by the last band, called the tolerance band. A resistor with a gold band for the tolerance will be guaranteed to fall within 5% of the nominal value. The table of tolerance colors is given below.
 
+Table 4. Resistor color bands and their corresponding tolerance values.
 | Tolerance | Color |
 | :---:| :---: |
 | 1% | Brown |
@@ -124,7 +125,7 @@ Resistors are never manufactured to exact values—it would be too expensive. In
 | 5% | Gold |
 | 10% | Silver |
 
-<table><caption> Table 4. Resistor color bands and their corresponding tolerance values.</caption></table>
+
 
 The formula to calculate the minimum and maximum values for a given resistor color code is given below. The true resistance value should fall within this range.
 
@@ -143,7 +144,7 @@ You can use the following image to help you determine the nominal value of your 
 
 
  
-<div class="e22-lab-activity" markdown="1">
+<div class="e22-lab-activity">
 
 #### Complete Activity 2: Identifying Resistor and Resistor Color Codes
 
