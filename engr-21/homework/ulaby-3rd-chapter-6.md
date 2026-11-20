@@ -7,7 +7,6 @@ author: "T. Dang"
 <style type="text/css">
     ol { list-style-type: upper-alpha; }
 </style>
-# ENGR 21 - Chapter 6 Answers
 
 Answers are for problems assigned from the following resource:
 

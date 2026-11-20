@@ -1,4 +1,8 @@
-# ENGR 21 - Circuit Analysis Lecture
+---
+title: "ENGR 21 - Circuit Analysis Lecture"
+date: "2026-19-11"
+author: "T. Dang"
+---
 
 Click on the appropriate resource below.
 
