@@ -13,7 +13,7 @@ Ulaby, F., Maharbiz, M., & Furse, C. (2025). _Circuit Analysis and Design._ No I
 
 ## Homework Answers
 
-<details>
+<details markdown="1">
 <summary>Problem 6.1</summary>
 
 1. $v_C(0)=12 \text{ V}$<br>$i_L(0)=3 \text{ A}$
