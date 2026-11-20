@@ -179,11 +179,6 @@ Watch the video on breadboarding basics:
 	allowfullscreen>
 </iframe>
 
-test2
-
-<iframe width="661" height="372" src="https://www.youtube.com/embed/6WReFkfrUIk" title="How to Use a Breadboard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
 ### How a Breadboard is Constructed
 
 Breadboards are a great tool for prototyping electronics projects, and is a necessary tool for electronics design. The original breadboards were originally just that – wooden boards used for cutting bread, and date all the way back to the beginning of electrical experimentation. (If you’re curious to see them in action, this You-tuber wires up a circuit on a wooden breadboard in this video.) Modern breadboards are plastic tablets that have rows of holes connected underneath with metal clips.
