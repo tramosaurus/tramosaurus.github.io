@@ -90,8 +90,12 @@ $$
 
 ### Summary
 
-You can use the following image to help you determine the nominal value of your resistor
+You can use the following image to help you determine the nominal value of your resistor.
 
+{% include figure.html
+   src="/engr-22/lab-01/img/resistor-chart.png"
+   alt="The image shows a close-up of a four-band resistor. The resistor is oriented so that the right-most band is gold, which is the tolerance band. The first band is orange, the second band is blue, and the third band is brown. The color bands tell us that it's a 360 ohm resistor."
+   caption="Figure 2. Resistor chart to help you determine the resistance." %}
 
 
 <div class="e22-lab-activity" markdown="1">
