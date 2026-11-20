@@ -25,7 +25,7 @@ While the circuits we’re going to be building in this class are all designed t
 
 Electricity can cause fatal burns or cause vital organs to malfunction. It all depends on how much, how long, and where. In general, a current of 5 mA or less will cause a sensation of shock, but rarely any damage. Larger currents can cause hand muscles to contract. Currents on the order of 100 mA are often fatal if they pass through the body for even a few seconds. The chart below shows the general relationship between the degree of injury and amount of current for a 60-cycle hand-to-foot path of one second's duration of shock.
 
-<p style="text-align:center" markdown="1">
+<p style="text-align:center">
 
 *Table 1: Effects of a range of electrical current passing through the human body.*
 {: .table-caption}
