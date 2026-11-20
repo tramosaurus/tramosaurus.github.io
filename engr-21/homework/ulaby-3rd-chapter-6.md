@@ -20,6 +20,7 @@ Ulaby, F., Maharbiz, M., & Furse, C. (2025). _Circuit Analysis and Design._ No I
 2. $i_C(0)=3 \text{ A}$<br>$v_L(0)=0$
 3. $v_C(\infty)=18 \text{ V}$<br>$i_L(\infty)=0$
 
+
 </details>
 
 <details>
