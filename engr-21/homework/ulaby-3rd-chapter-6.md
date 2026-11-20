@@ -112,7 +112,7 @@ $v_C(t)=\frac{4}{3}+\left[ \frac{20}{3} \cos (745.4t)+5.96 \sin (745.4t) \right]
 <details markdown="1">
 <summary>Problem 6.45</summary>
 
-1. $v_C{t}=29.95(e^{-811t}-e^{-411t}) \text{ A, for } t \geq 0$
+1. $v_C{t}=29.95\left(e^{-811t}-e^{-411t}\right) \text{ A, for } t \geq 0$
 2. Maximum inductor current occurs at $t=\infty$. At this time, $w_L=48 \text{ mJ}$.
 
 </details>
@@ -130,6 +130,6 @@ $v_C(t)=\frac{4}{3}+\left[ \frac{20}{3} \cos (745.4t)+5.96 \sin (745.4t) \right]
 <summary>Problem 6.53</summary>
 
 $i_L^{\prime\prime}+10^4i_L^{\prime}+10^7i_L=360$<br>
-$i_L(t)=(36-41.2e^{-1127t}+5.24e^{-8873t}) \text{ }\mu\text{A, for } t \geq 0$
+$i_L(t)=\left(36-41.2e^{-1127t}+5.24e^{-8873t}\right) \text{ }\mu\text{A, for } t \geq 0$
 
 </details>
