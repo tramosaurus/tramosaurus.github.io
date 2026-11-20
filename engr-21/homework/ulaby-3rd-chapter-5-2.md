@@ -81,8 +81,8 @@ $i_L(t)=2e^{-100t/3}\text{ A}$
 <span markdown="0">
 $i_L(t)=
 \begin{cases}
-    4\left(1-e^{-3t})\right)\text{ A} & 0 \leq t \leq 0.05\text{ s} \\\\
-    \left(4-0.89e^{-2(t-0.25)}\right)\text{ A} & t > 0.5 \text{ s}
+    4\left(1-e^{-3t})\right)\text{ A,} & 0 \leq t \leq 0.05\text{ s} \\\\
+    \left(4-0.89e^{-2(t-0.25)}\right)\text{ A,} & t > 0.5 \text{ s}
 \end{cases}$
 </span>
 
