@@ -44,6 +44,8 @@ footer {
 }
 
 figure {
+  display: block; 
+  margin: 0 auto;
   justify-content: center;
   width: 100%;
   max-width: 500px; /* Change to your desired max width */
