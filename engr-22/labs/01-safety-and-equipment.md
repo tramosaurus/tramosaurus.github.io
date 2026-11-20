@@ -143,7 +143,7 @@ You can use the following image to help you determine the nominal value of your 
 
 
  
-<div class="e22-lab-activity">
+<div class="e22-lab-activity" markdown="1">
 
 #### Complete Activity 2: Identifying Resistor and Resistor Color Codes
 
