@@ -173,12 +173,15 @@ Get the software here: [LTspice](https://www.analog.com/en/resources/design-tool
 
 Watch the video on breadboarding basics:
 
-<iframe>
-	class="responsive-frame"
-	src="https://www.youtube.com/embed/6WReFkfrUIk" 
+<div style="padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://www.youtube.com/embed/6WReFkfrUIk" 
+    style="position: absolute; top: 0; left: 0; max-width: 661 px; height: auto; border: 0;" 
 	allowfullscreen>
-</iframe>
+  </iframe>
+</div>
 
+test1
 
 <iframe width="661" height="372" src="https://www.youtube.com/embed/6WReFkfrUIk" title="How to Use a Breadboard" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
