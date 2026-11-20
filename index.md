@@ -2,7 +2,7 @@
 
 This site is a way for me to share resources and docs. This includes typed-up notes for her courses, homework answers, and some labs. Please click on the appropriate course below.
 
-# Courses
+## Courses
 
 - PHYSCS 21: Calculus-Based Physics Mechanics with Lab
 - ENGR 11: Engineering Graphics and Design
