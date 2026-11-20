@@ -24,4 +24,4 @@ Ulaby, F., Maharbiz, M., & Furse, C. (2025). _Circuit Analysis and Design._ No I
 
 </details>
 
-{{ site.e21}}
+{{ site.e21 }}
