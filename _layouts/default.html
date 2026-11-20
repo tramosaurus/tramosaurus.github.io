@@ -23,9 +23,16 @@
   <body>
     {{ content }}
   </body>
-  <footer>
+  <footer class="site-footer">
     <div>
       <p><a href="https://tramosaurus.github.io/">tramosaurus.github.io</a></p>
+      {% if page_title contains "ENGR 21" %}
+      <p>ENGR 21</p>
+      {% elsif page_title contains "PHYSCS 21" %}
+      <p>PHYSCS 21</p>
+      {% else %}
+      <P>back home to github</P>
+      {% endif %}
       <p>
         &copy; {{ "now" | date: "%Y" }} T. Dang
       </p>
