@@ -27,7 +27,7 @@ summary {
   }
 }*/
 
-@media print, screen and (min-width: 960px) {
+/*@media print, screen and (min-width: 960px) {
   .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -47,5 +47,11 @@ summary {
   footer {
     margin-top: 20px;
     align-self: flex-end;
+  }
+}*/
+
+@media print, screen and (min-width: 960px) {
+  section {
+    padding-bottom: 120px; /* Adjust based on your footer's height */
   }
 }
