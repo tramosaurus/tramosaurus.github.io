@@ -1,5 +1,5 @@
 ---
-title: "Lab 1: Safety and Equipment - Part 1"
+title: "ENGR 22 Lab 1: Safety and Equipment - Part 1"
 date: "2026-11-20"
 author: "T. Dang"
 ---
@@ -60,4 +60,7 @@ The full directions for the activity can be found on your Activity Data Record S
 
 </div>
 
+<div style="float: right">
+
 Ready to move on? [Go to Part 2.](/engr-22/lab-01/01-safety-and-equipment-2)
+</div>
