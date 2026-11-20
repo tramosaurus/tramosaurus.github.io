@@ -23,4 +23,17 @@
   <body>
     {{ content }}
   </body>
+  <footer class="site-footer">
+  <div class="wrapper">
+    <p>
+      &copy; {{ "now" | date: "%Y" }} {{ site.author | default: site.title }}
+      {% if site.github_username %}
+        &middot; <a href="https://github.com/tramosaurus">GitHub</a>
+      {% endif %}
+      {% if site.email %}
+        &middot; <a href="mailto:{{ site.email }}">Email</a>
+      {% endif %}
+    </p>
+  </div>
+</footer>
 </html>
