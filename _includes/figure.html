@@ -1,0 +1,15 @@
+<figure class="figure">
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}">
+  {% if include.caption %}
+    <figcaption class="figure-caption">{{ include.caption | markdownify }}</figcaption>
+  {% endif %}
+</figure>
+
+/* envoke using
+
+{% include figure.html
+   src="/assets/img/circuit.png"
+   alt="Circuit diagram"
+   caption="*Figure 1:* Step-down response." %}
+
+*/
