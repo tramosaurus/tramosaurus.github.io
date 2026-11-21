@@ -108,12 +108,12 @@ The full directions for the activity can be found on your Data and Answer Sheet.
 
 
 <div class="container">
-  <div class="left">
+  <div class="left" markdown="1">
   
   Ready to move on? [Go to Part 3.](/engr-22/lab-01/01-safety-and-equipment-3)
   
   </div>
-  <div class="right">
+  <div class="right" markdown="1">
   
   Need to go back? [Go to Part 1.](/engr-22/lab-01/01-safety-and-equipment-1)
   
