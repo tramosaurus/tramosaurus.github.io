@@ -106,7 +106,6 @@ The full directions for the activity can be found on your Data and Answer Sheet.
 
 </div>
 
-
 <div class="container">
   <div class="left" markdown="1">
   
