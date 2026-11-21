@@ -4,6 +4,14 @@ date: "2026-11-20"
 author: "T. Dang"
 ---
 
+Site URL: {{ site.url}}
+
+Base URL: {{site.baseurl}}
+
+Page URL: {{ page.url }}
+
+Fixme: {{ fixme }}
+
 ## Equipment Needed for This Lab
 From your kit:
 - Resistors: 100, 220, 470, 1k 
