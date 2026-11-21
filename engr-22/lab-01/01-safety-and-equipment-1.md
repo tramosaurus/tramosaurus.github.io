@@ -66,7 +66,7 @@ The full directions for the activity can be found on your Activity Data Record S
   </div>
   <div class="right" markdown="1">
   
-Ready to move on? <br> [Go to Part 2.](/engr-22/lab-01/01-safety-and-equipment-2)
+Ready to move on? <br> [Go to Part 2](./01-safety-and-equipment-2)
 
   </div>
 </div>

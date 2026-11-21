@@ -78,7 +78,7 @@ Resistors marked with color bands come in two types: one with four color bands, 
 To figure out the resistance value of a four-band resistor, start by finding the gold or silver band, known as the tolerance band. Rotating the resistor so that the tolerance band is on the right side.
 
 {% include figure.html
-   src="/engr-22/lab-01/img/resistor-band.png"
+   src="./img/resistor-band.png"
    alt="The image shows a close-up of a four-band resistor. The resistor is oriented so that the right-most band is gold, which is the tolerance band. The first band is orange, the second band is blue, and the third band is brown. The color bands tell us that it's a 360 ohm resistor."
    caption="Figure 1. How to orient a resistor to read resistor band colors." %}
 
@@ -150,8 +150,8 @@ $$
 You can use the following image to help you determine the nominal value of your resistor.
 
 {% include figure.html
-   src="/engr-22/lab-01/img/resistor-chart.png"
-   alt="The image shows a close-up of a four-band resistor. The resistor is oriented so that the right-most band is gold, which is the tolerance band. The first band is orange, the second band is blue, and the third band is brown. The color bands tell us that it's a 360 ohm resistor."
+   src="./img/resistor-chart.png"
+   alt="An instructional diagram showing how to read a resistor’s color bands to determine its resistance. Five color bands on a resistor are connected by lines to a color-coded chart showing the digit values (0–9), the multiplier values (powers of ten), and tolerance values. The top example shows a resistor with orange, blue, red, and gold bands, corresponding to 36 × 10 = 360 ohms. The bottom example shows a resistor with green, blue, black, gold, and brown bands, corresponding to 460 × 0.1 = 46 ohms, with 1% tolerance. The chart identifies gold as a 5% tolerance band and silver as a 10% tolerance band."
    caption="Figure 2. Resistor chart to help you determine the resistance." %}
  
 <div class="e22-lab-activity" markdown="1">
@@ -207,15 +207,15 @@ Breadboards are a great tool for prototyping electronics projects, and is a nece
 These boards are great for prototyping and testing new circuits. Components can be placed into the breadboard and pulled out easily, and requires no soldering or other more permanent connections. The figure below shows a picture of the breadboard (left) and a diagram showing how the individual holes are connected with the metal clips.
 
 {% include figure.html
-   src="/engr-22/lab-01/img/breadboard-routing.png"
-   alt="FIXIT"
+   src="./img/breadboard-routing.png"
+   alt="A side-by-side comparison of a solderless breadboard (left) and its internal electrical connection layout (right). The breadboard has two outer power rails marked with red and blue lines, two terminal strips separated by a center channel, and columns of holes labeled A–E and F–J with row numbers 45, 50, 55, and 60. The routing diagram shows the outer power rails connected vertically, while the terminal-strip holes are connected horizontally in groups of five on either side of the center gap. Red lines indicate positive power rails, and blue lines indicate negative power rails."
    caption="Figure 3. Physical (left) and electrical (right) view of a section of a breadboard." %}
 
 To connect two components together, you just need to make sure that the two ends being connected share the same 5-pin row. The metal clips below act as a wire connecting the two ends together. An example is shown below.
  
 {% include figure.html
-   src="/engr-22/lab-01/img/wire-to-resistor.png"
-   alt="FIXIT"
+   src="./img/wire-to-resistor.png"
+   alt="Diagram showing how to connect a wire to a resistor on a breadboard. On the left, a circuit schematic highlights the junction where a wire connects to one lead of resistor R1 (33 Ω), marked with a black connection dot inside a red circle. On the right, a breadboard view shows the equivalent physical connection: a blue jumper wire and one lead of a resistor are inserted into holes in the same horizontal row, highlighted by a red circle. Green highlights indicate the electrically connected holes, demonstrating that components sharing the same breadboard row are connected together."
    caption="Figure 4. Connecting a wire to a resistor in schematic view (left) and breadboard view (right)." %}
 
 ### How to Wire Parts in Series
@@ -223,8 +223,8 @@ To connect two components together, you just need to make sure that the two ends
 In order to wire two parts in series, you’ll want the parts share one node. This means that the two ends you are trying to connect need to share the same 5-pin row. You can also use a wire to bridge between rows to connect the two parts at one end. The following images are there to show you a few different ways you can wire components in series.
 
 {% include figure.html
-   src=""
-   alt="FIXIT"
+   src="./img/breadboard-in-series.png"
+   alt="Three vertically stacked breadboard diagrams illustrating different ways to connect two resistors in series. The top diagram shows one resistor positioned horizontally across the breadboard's center gap and a second resistor positioned vertically on the left side, with both sharing an electrically connected row. The middle diagram shows two resistors positioned vertically on the left side, with one lead of each resistor inserted into the same connected row. The bottom diagram shows two resistors positioned horizontally across the center gap, with a blue jumper wire connecting their left-side rows. Green-highlighted holes indicate electrically connected rows, demonstrating three different arrangements for connecting resistors in series on a breadboard."
    caption="Figure 5. Different ways to wire two elements in series." %}
 
 ### How to Wire Parts in Parallel
@@ -232,20 +232,22 @@ In order to wire two parts in series, you’ll want the parts share one node. Th
 In order to wire two parts in parallel, you’ll want the parts to share two nodes, one on either side. The following images are there to show you a few different ways you can wire components in series.
 
 {% include figure.html
-   src=""
-   alt="FIXIT"
+   src="./img/breadboard-in-parallel.png"
+   alt="Three vertically stacked breadboard diagrams illustrating different ways to connect two resistors in parallel. The top diagram shows two resistors positioned vertically side by side, with their upper leads sharing one electrically connected row and their lower leads sharing another. The middle diagram shows two vertically positioned resistors in different rows, with a blue jumper wire connecting their upper leads and a shared row connecting their other leads. The bottom diagram shows two resistors positioned horizontally across the breadboard's center gap, with blue jumper wires connecting their corresponding ends on both sides. Green-highlighted holes indicate electrically connected rows, demonstrating three arrangements in which both resistors share the same two electrical connection points."
    caption="Figure 6. Different ways to wire two elements in parallel." %}
 
-### How to Add Integrated Circuits
+### How to Add Integrated Circuits, Buttons, and Other Elements
 
-Integrated circuits, or ICs for short, are complex circuits built into a tiny, black “chip.” To learn more about the makeup of ICs, you can FIXIT visit this page. 
+Integrated circuits, or ICs for short, are complex circuits built into a tiny, black “chip.” To learn more about the makeup of ICs, you can watch this optional video.
+
+{{ fixme }}
 
 ICs can come in all different shapes and sizes, depending on the application. Those designed to be used with breadboards come as a Dual In-line Package, or DIP. To use DIP ICs on your breadboard, you’ll have to use that ravine that runs down the middle of your board, called the mounting channel. The following image shows the correct placement of an IC, as well as a potentiometer, onto a breadboard.
 
 {% include figure.html
-   src=""
-   alt="FIXIT"
-   caption="Figure 7. Wiring a dual in-line package (DIP) style chip." %}
+   src="./img/breadboard-ic.png"
+   alt="Breadboard diagram illustrating how to position an integrated circuit (IC) and a multi-terminal component across the center gap of a solderless breadboard. At the top, an eight-pin IC straddles the center channel, with four pins inserted into separate rows on each side. Below it, a three-terminal adjustable component is positioned with its terminals inserted into separate electrically connected rows. Green-highlighted holes indicate the electrical connections within each row. The arrangement demonstrates how placing components across the breadboard's center gap keeps their terminals electrically isolated from one another, allowing independent circuit connection."
+   caption="Figure 7. Wiring a dual in-line package (DIP) style chip and a 3-terminal potentiomenter." %}
 
 ## How to Power the Breadboard
 
@@ -254,26 +256,32 @@ ICs can come in all different shapes and sizes, depending on the application. Th
 The two vertical columns of pins on either side of the main area are reserved for source voltages and ground connections. These columns are available along the entire length of the board, since power and ground often need to be accessed at many points in a circuit. 
 
 The figure below shows a typical breadboard with +12 and -12V power supplies connected and two ground lines. The source voltages could come from a battery, an AC-DC adapter, or a bench supply.
- 
-Figure 3. Breadboard with power strips connected to +12, -12 and Ground.
-How to Use the Bench-top Power Supply
 
-FIXIT
+{% include figure.html
+   src="./img/breadboard-ic.png"
+   alt="Diagram illustrating how to connect positive and negative 12-volt power supplies and ground to a solderless breadboard. On the left, a red wire labeled +12V connects to the positive power rail, while a black wire labeled GND connects to the adjacent ground rail. On the right, a red wire labeled −12V connects to the red-marked power rail, while a black wire labeled GND connects to the adjacent blue-marked ground rail. Green-highlighted holes indicate electrically connected positions along each vertical rail. Red and black ovals and arrows emphasize that all holes within the corresponding power and ground rails share the same electrical connection."
+   caption="Figure 8. Breadboard with power strips connected to +12, -12 and Ground." %}
+
+### How to Use the Bench-top Power Supply
 
 Watch the following video on powering your protoboard using the benchtop power supply:
-How to use the bench-top power supply [TD3.1]
 
+{{ fixme }}
 
 ### How to Use the Digilent Analog Discovery 3
 
-The following video shows you how to use the previously released device, the Analog Discovery 2, to power your protoboard: Had to use the Digilent Analog Discovery[TD4.1]
+The following video shows you how to use the previously released device, the Analog Discovery 3, to power your protoboard:
+
+{{ fixme }}
 
 ### How to use the Power-to-Breadboard Adapter
 
+In the off-chance that you’ll be borrowing components from us to work on labs at home, the take-home kits comes with two special DC barrel jack to screw terminal adapters that will allow you to connect the 12V wall adapters. You can then attach wires to the screw terminals, which also connect to the breadboard. When properly set up with grey and white wires, they look like this:
 
-In the off-chance that you’ll be borrowing components from us to work on labs at home, the take-home kits comes with two special adapters that will allow you to connect the 12V wall adapters to screw terminals and wires leading to the breadboard. When properly set up with grey and white wires, they look like this:
-
- 
+{% include figure.html
+   src="./img/power-terminal.png"
+   alt="Close-up photograph of a black DC barrel jack power adapter with a green two-position screw terminal block. Two wires, one dark and one light-colored, extend from the terminal block, with each wire inserted into a separate terminal. Two silver screws on top of the green block secure the wires in place, allowing the adapter to connect a DC power supply to a circuit or breadboard."
+   caption="Figure 9. DC barrel jack to screw terminal adapter." %}
 
 Note that the black wire should be wired to the (-) post and the white wire to the (+) post. Once configured, plug in a wall adapter and confirm you are getting about 12V at the wire leads (actually, it should  be a little larger than 12V) with the voltmeter switched to DCV. 
 
@@ -281,9 +289,17 @@ When you plug a power supply into the barrel jack, a voltage potential of +12V w
 
 The breadboard also has four short jumper wires bridging the gaps on the power strip lines in the center, where there is a break in the connection. This ensures that power and ground extend all the way across the board. Make sure your breadboard looks like the following, making sure to add the short jumper wires in the middle of the board. Leave the wall adapter unplugged while you construct the rest of the circuit. 
 
- 
+<div class="e22-lab-activity" markdown="1">
 
-#### Complete Activity 3: Build the Circuits
+### Complete Activity 3: Build the Circuits
+
+You will be building some circuits to show that you understand how to properly use a breadboard. 
+
+- **For all breadboarded circuits**, you may either build a physical circuit and take a picture of it, or you may prototype the entire board on [Tinkercad Circuits](https://www.tinkercad.com/circuits). (The latter is easier if you're working from home.)
+- **For all circuit diagrams**, you can neatly hand-draw them and take a picture of it. You can also use an online circuit diagram maker (search for it - there are may to choose from) such as [Circuit Canvas](https://circuitcanvas.com/).
+- **You can check your answers** using [Circuit Canvas](https://circuitcanvas.com/), which will automatically convert breadboard circuits into a circuit diagram. Note that regardless of whether you do this, you are still responsible for understanding how to build circuits for the rest of the semester.
+
+</div>
 
 ## Digital Multimeters (DMMs)
 

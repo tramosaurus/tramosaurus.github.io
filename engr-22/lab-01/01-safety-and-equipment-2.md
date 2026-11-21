@@ -22,7 +22,7 @@ Resistors marked with color bands come in two types: one with four color bands, 
 To figure out the resistance value of a four-band resistor, start by finding the gold or silver band, known as the tolerance band. Rotating the resistor so that the tolerance band is on the right side.
 
 {% include figure.html
-   src="/engr-22/lab-01/img/resistor-band.png"
+   src="./img/resistor-band.png"
    alt="The image shows a close-up of a four-band resistor. The resistor is oriented so that the right-most band is gold, which is the tolerance band. The first band is orange, the second band is blue, and the third band is brown. The color bands tell us that it's a 360 ohm resistor."
    caption="Figure 1. How to orient a resistor to read resistor band colors." %}
 
@@ -93,7 +93,7 @@ $$
 You can use the following image to help you determine the nominal value of your resistor.
 
 {% include figure.html
-   src="/engr-22/lab-01/img/resistor-chart.png"
+   src="./img/resistor-chart.png"
    alt="The image shows a close-up of a four-band resistor. The resistor is oriented so that the right-most band is gold, which is the tolerance band. The first band is orange, the second band is blue, and the third band is brown. The color bands tell us that it's a 360 ohm resistor."
    caption="Figure 2. Resistor chart to help you determine the resistance." %}
 
@@ -109,12 +109,12 @@ The full directions for the activity can be found on your Data and Answer Sheet.
 <div class="container">
   <div class="left" markdown="1">
   
-  Need to go back? <br> [Go to Part 1.](/engr-22/lab-01/01-safety-and-equipment-1)  
+  Need to go back? <br> [Go to Part 1](./01-safety-and-equipment-1)  
   
   </div>
   <div class="right" markdown="1">
   
-Ready to move on? <br> [Go to Part 3.](/engr-22/lab-01/01-safety-and-equipment-3)
+Ready to move on? <br> [Go to Part 3](./01-safety-and-equipment-3)
   
   </div>
 </div>
