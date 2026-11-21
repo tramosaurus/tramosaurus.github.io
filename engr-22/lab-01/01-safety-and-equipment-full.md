@@ -1,5 +1,5 @@
 ---
-title: "Lab 1: Safety and Equipment"
+title: "ENGR 22 Lab 1: Safety and Equipment"
 date: "2026-11-20"
 author: "T. Dang"
 ---
@@ -52,7 +52,13 @@ Disconnect the power source if you smell anything burning. The smell of burning 
 - **Always use common sense and pay attention to the task you are working on.**
 - **If at any time you are not sure how to handle a particular situation, ask the instructor for advice.**
 
-#### Complete Activity 1: Safety Hazards Related to Electricity and Electronics Equipment
+<div class="e22-lab-activity" markdown="1">
+
+### Complete Activity 1: Safety Hazards Related to Electricity and Electronics Equipment
+
+The full directions for the activity can be found on your Activity Data Record Sheet.
+
+</div>
 
 ## Reading Resistor Codes
 
@@ -70,12 +76,11 @@ Resistors marked with color bands come in two types: one with four color bands, 
 ### Reading Resistor Values
 
 To figure out the resistance value of a four-band resistor, start by finding the gold or silver band, known as the tolerance band. Rotating the resistor so that the tolerance band is on the right side.
-	
 
-<figure>
-  <img src="path/to/image.jpg" alt="A descriptive alt text for screen readers">
-  <figcaption>Figure 1. How to orient a resistor to read resistor band colors.</figcaption>
-</figure>
+{% include figure.html
+   src="/engr-22/lab-01/img/resistor-band.png"
+   alt="The image shows a close-up of a four-band resistor. The resistor is oriented so that the right-most band is gold, which is the tolerance band. The first band is orange, the second band is blue, and the third band is brown. The color bands tell us that it's a 360 ohm resistor."
+   caption="Figure 1. How to orient a resistor to read resistor band colors." %}
 
 The first three color bands are arranged as follows: the first band, the second band, and the multiplier band. For these three bands, each color represents a different value, which can be found in the chart below. (The final column represents a mnemonic device to help you remember.)
 
@@ -94,8 +99,6 @@ _Table 2. Resistor color and the corresponding value._
 | 7 | Violet | Vegetables |
 | 8 | Gray | Grow |
 | 9 | White | Wonderfully |
-
-
 
 You can use the mnemonic device to help you remember: 
 
@@ -131,8 +134,6 @@ _Table 4. Resistor color bands and their corresponding tolerance values._
 | 5% | Gold |
 | 10% | Silver |
 
-
-
 The formula to calculate the minimum and maximum values for a given resistor color code is given below. The true resistance value should fall within this range.
 
 
@@ -146,13 +147,16 @@ $$
 
 ### Summary
 
-You can use the following image to help you determine the nominal value of your resistor
+You can use the following image to help you determine the nominal value of your resistor.
 
-
+{% include figure.html
+   src="/engr-22/lab-01/img/resistor-chart.png"
+   alt="The image shows a close-up of a four-band resistor. The resistor is oriented so that the right-most band is gold, which is the tolerance band. The first band is orange, the second band is blue, and the third band is brown. The color bands tell us that it's a 360 ohm resistor."
+   caption="Figure 2. Resistor chart to help you determine the resistance." %}
  
 <div class="e22-lab-activity" markdown="1">
 
-#### Complete Activity 2: Identifying Resistor and Resistor Color Codes
+### Complete Activity 2: Identifying Resistor and Resistor Color Codes
 
 The full directions for the activity can be found on your Data and Answer Sheet.
 
@@ -180,7 +184,11 @@ LTspice is an open-source circuit simulator that is based on SPICE. It's a bit c
 
 Get the software here: [LTspice](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html)
 
-#### No activities to complete, however you may consider installing the above software.
+<div class="e22-lab-activity" markdown="1">
+
+### No activities to complete, however you may consider installing the above software.
+
+</div>
 
 ## Breadboard Basics
 
@@ -198,41 +206,46 @@ Breadboards are a great tool for prototyping electronics projects, and is a nece
 
 These boards are great for prototyping and testing new circuits. Components can be placed into the breadboard and pulled out easily, and requires no soldering or other more permanent connections. The figure below shows a picture of the breadboard (left) and a diagram showing how the individual holes are connected with the metal clips.
 
- 
-Figure 1. Physical (left) and electrical (right) view of a section of a breadboard.
+{% include figure.html
+   src="/engr-22/lab-01/img/breadboard-routing.png"
+   alt="FIXIT"
+   caption="Figure 3. Physical (left) and electrical (right) view of a section of a breadboard." %}
+
 To connect two components together, you just need to make sure that the two ends being connected share the same 5-pin row. The metal clips below act as a wire connecting the two ends together. An example is shown below.
  
-
-Figure 2. Connecting a wire to a resistor in schematic view (left) and breadboard view (right).
+{% include figure.html
+   src="/engr-22/lab-01/img/wire-to-resistor.png"
+   alt="FIXIT"
+   caption="Figure 4. Connecting a wire to a resistor in schematic view (left) and breadboard view (right)." %}
 
 ### How to Wire Parts in Series
 
 In order to wire two parts in series, you’ll want the parts share one node. This means that the two ends you are trying to connect need to share the same 5-pin row. You can also use a wire to bridge between rows to connect the two parts at one end. The following images are there to show you a few different ways you can wire components in series.
 
- 
-
- 
-
- 
+{% include figure.html
+   src=""
+   alt="FIXIT"
+   caption="Figure 5. Different ways to wire two elements in series." %}
 
 ### How to Wire Parts in Parallel
 
 In order to wire two parts in parallel, you’ll want the parts to share two nodes, one on either side. The following images are there to show you a few different ways you can wire components in series.
 
- 
-
- 
-
- 
+{% include figure.html
+   src=""
+   alt="FIXIT"
+   caption="Figure 6. Different ways to wire two elements in parallel." %}
 
 ### How to Add Integrated Circuits
 
-Integrated circuits, or ICs for short, are complex circuits built into a tiny, black “chip.” To learn more about the makeup of ICs, you can visit this page. 
+Integrated circuits, or ICs for short, are complex circuits built into a tiny, black “chip.” To learn more about the makeup of ICs, you can FIXIT visit this page. 
 
 ICs can come in all different shapes and sizes, depending on the application. Those designed to be used with breadboards come as a Dual In-line Package, or DIP. To use DIP ICs on your breadboard, you’ll have to use that ravine that runs down the middle of your board, called the mounting channel. The following image shows the correct placement of an IC, as well as a potentiometer, onto a breadboard.
 
- 
-
+{% include figure.html
+   src=""
+   alt="FIXIT"
+   caption="Figure 7. Wiring a dual in-line package (DIP) style chip." %}
 
 ## How to Power the Breadboard
 
@@ -244,6 +257,8 @@ The figure below shows a typical breadboard with +12 and -12V power supplies con
  
 Figure 3. Breadboard with power strips connected to +12, -12 and Ground.
 How to Use the Bench-top Power Supply
+
+FIXIT
 
 Watch the following video on powering your protoboard using the benchtop power supply:
 How to use the bench-top power supply [TD3.1]
