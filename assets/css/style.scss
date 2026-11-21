@@ -63,3 +63,8 @@ figure {
   margin-bottom: 20px;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Optional: vertically centers the divs */
+}
