@@ -58,11 +58,14 @@ Disconnect the power source if you smell anything burning. The smell of burning 
 
 The full directions for the activity can be found on your Activity Data Record Sheet.
 
+<div class="container">
+  <div class="left" markdown="1">
+  
+  </div>
+  <div class="right" markdown="1">
+  
+Ready to move on? <br> [Go to Part 2.](/engr-22/lab-01/01-safety-and-equipment-2)
+
+  </div>
 </div>
-
-<div style="float: right" markdown="1">
-
-Ready to move on? [Go to Part 2.](/engr-22/lab-01/01-safety-and-equipment-2)
-
-</div>
-
+ 
