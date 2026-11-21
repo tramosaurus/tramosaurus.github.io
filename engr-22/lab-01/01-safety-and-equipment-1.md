@@ -58,6 +58,8 @@ Disconnect the power source if you smell anything burning. The smell of burning 
 
 The full directions for the activity can be found on your Activity Data Record Sheet.
 
+</div>
+
 <div class="container">
   <div class="left" markdown="1">
   
