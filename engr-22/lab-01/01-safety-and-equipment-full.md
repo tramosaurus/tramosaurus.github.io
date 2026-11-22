@@ -258,7 +258,7 @@ The two vertical columns of pins on either side of the main area are reserved fo
 The figure below shows a typical breadboard with +12 and -12V power supplies connected and two ground lines. The source voltages could come from a battery, an AC-DC adapter, or a bench supply.
 
 {% include figure.html
-   src="./img/breadboard-ic.png"
+   src="./img/breadboard-power.png"
    alt="Diagram illustrating how to connect positive and negative 12-volt power supplies and ground to a solderless breadboard. On the left, a red wire labeled +12V connects to the positive power rail, while a black wire labeled GND connects to the adjacent ground rail. On the right, a red wire labeled −12V connects to the red-marked power rail, while a black wire labeled GND connects to the adjacent blue-marked ground rail. Green-highlighted holes indicate electrically connected positions along each vertical rail. Red and black ovals and arrows emphasize that all holes within the corresponding power and ground rails share the same electrical connection."
    caption="Figure 8. Breadboard with power strips connected to +12, -12 and Ground." %}
 
@@ -266,13 +266,13 @@ The figure below shows a typical breadboard with +12 and -12V power supplies con
 
 Watch the following video on powering your protoboard using the benchtop power supply:
 
-{{ fixme }}
+{{ site.fixme }}
 
 ### How to Use the Digilent Analog Discovery 3
 
 The following video shows you how to use the previously released device, the Analog Discovery 3, to power your protoboard:
 
-{{ fixme }}
+{{ site.fixme }}
 
 ### How to use the Power-to-Breadboard Adapter
 
@@ -287,7 +287,12 @@ Note that the black wire should be wired to the (-) post and the white wire to t
 
 When you plug a power supply into the barrel jack, a voltage potential of +12V will extend along the red horizontal line marking the top “power strip” of the breadboard.  Ground (0V potential) will run along the row marked with a blue line. 
 
-The breadboard also has four short jumper wires bridging the gaps on the power strip lines in the center, where there is a break in the connection. This ensures that power and ground extend all the way across the board. Make sure your breadboard looks like the following, making sure to add the short jumper wires in the middle of the board. Leave the wall adapter unplugged while you construct the rest of the circuit. 
+{% include figure.html
+   src="./img/breadboard-power-plug.png"
+   alt="Diagram illustrating how to connect a DC power supply to a solderless breadboard using a barrel jack adapter with screw terminals. Two wires extend from the adapter to the breadboard's upper power rails, with the gray wire connected to the blue-marked rail and the white wire connected to the red-marked rail. Green-highlighted holes indicate the power rail connections. Short green and yellow jumper wires bridge gaps in the upper and lower power rails, allowing power to be distributed along each rail. The diagram demonstrates how to supply power to a breadboard and maintain electrical continuity across separated sections of the power rails."
+   caption="Figure 10. Breadboard powerd by a DC barrel jack adapter." %}
+
+The breadboard in Figure 10 also has four short jumper wires bridging the gaps on the power strip lines in the center, where there is a break in the connection. This ensures that power and ground extend all the way across the board. Make sure your breadboard looks like the following, making sure to add the short jumper wires in the middle of the board. Leave the wall adapter unplugged while you construct the rest of the circuit. 
 
 <div class="e22-lab-activity" markdown="1">
 
@@ -305,21 +310,37 @@ You will be building some circuits to show that you understand how to properly u
 
 A DMM is a very important tool for electricians and electrical engineers. Depending on the model and the specifications, a DMM can be used to measure multiple parameters, including voltage, resistance, current, continuity, capacitance, and temperature. 
 
- 
-Figure 4. Two different digital multimeters, the Keysight multimeter (left) and the Tacklife multimeter (right).
-The Keysight DMM (show on the left) measures voltage, resistance, continuity, capacitance, and temperature (note that this does NOT measure current!). This unit also is auto-ranging; you do not need to “find” the correct sensitivity in order to take a reading. To take measurements, you will need to attach the cables to the correct port:
-	COM: Short for “common,” the black probe should be plugged into this port. This probe should be placed on the side of the circuit that is closest to 0 V when making voltage measurements.
-	VΩ: The red probe should be placed into this side. The various symbols correspond to the different measurements that can be taken by using this port. This probe should be placed on the side of the circuit that is farthest from 0 V when making voltage measurements.
+{% include figure.html
+   src="./img/power-terminal.png"
+   alt="Need alt text."
+   caption="Figure 11. Two different digital multimeters, the Keysight multimeter (left) and the Tacklife multimeter (right)." %}
 
-The Tacklife DMM (shown on the right) measures voltage, resistance, current, and continuity (note that this does NOT measure capacitance or temperature!). This unit is not autoranging; 
-	10A: The red probe should be plugged into this port when making current measurements only. 
-	COM: Short for “common,” the black probe should be plugged into this port. This probe should be placed on the side of the circuit that is closest to 0 V when making voltage measurements.
-	VΩ: The red probe should be placed into this side when making any measurements other than current. The various symbols correspond to the different measurements that can be taken by using this port. This probe should be placed on the side of the circuit that is farthest from 0 V when making voltage measurements.[TD5.1]
+{{ site.fixme }}
 
-Each meter has measurement limits in voltage and current beyond which the meter will be damaged. For the DMMs supplied in this lab, the maximum voltage input is 600 V, while for the Tacklife, the maximum current input is 10 A.
+In our lab, we have a mixed assortment of multimeters, shown in Figure 11. All measure voltage, while only some measure current. You will need to use a black and red cable to connect the ports to your board. In our class, we typically use **banana plugs** with **alligator clips** to connect to our board, as the standard multimeter probes are too big for the breadboard holes.
 
- 	Be careful to connect the red probe to the correct jack for the measurement you are performing, or you could damage the meter.
-How to Measure Resistance
+Read about each of the symbols that represent the main functions found on a multimeter below.
+
+| Symbols | Description |
+| :--: | :-- |
+| **COM** | Short for **common**, this is the negative input of the multimeter. The black cable should be plugged into this port when you're making measurements. This cable should be connected to the side of the circuit that is closest to $0\text{ V}$ (or the negative side) when making measurements. Otherwise, your reading will be negative. |
+| <img src="./img/dmm-vdc.png" alt="Black DC voltage symbol consisting of a capital letter V next to a solid horizontal line above three short dashed lines, indicating the direct current (DC) voltage measurement setting on a digital multimeter." width="50"> | **VDC or direct current voltage.** If you want to measure DC voltage, you will want to place the red cable into this port, and select the corresponding symbol with the dial. The probe should be placed on the side of the circuit that is farthest from $0\text{ V}$ when making voltage measurements. **Note: you may see $\text{mV}$ or $\mu\text{V}$. Select the correct one based on the range of your expected voltage.** |
+| <img src="./img/dmm-adc.png" alt="Black DC current measurement symbol consisting of a solid horizontal line above three short dashed lines, positioned to the left of a capital letter A. The symbol indicates the direct current (DC) measurement setting in amperes on a digital multimeter." width="50"> | **ADC or direct current.** If you want to measure the current (units of $\text{A}$, or amps), you should place the red cable into this port, and select the corresponding symbol with the dial. The probe should be placed on the side of the circuit that is farthest from $0\text{ V}$ when making voltage measurements. **Note: you may see $\text{mA}$ or $\mu\text{A}$. Select the correct port and the corresponding dial choice based on the range of your expected current. You may wish to start with the biggest range ($\text{A}$) and work your way down, to prevent damaging the built-in fuse.** |
+| <img src="./img/dmm-resistance.png" alt-text="Symbol for resistance, which is a capital omega." width="50"> | **Resistance.** Use this port when measuring resistance. Be sure that the cable is in the port with the corresponding symbol, and that the symbol is selected on the dial. Resistors do not have polarity, so you can place the probes on either ends of the resistor. **Be sure that the resistor has been removed from your circuit before you measure it.** |
+| <img src="./img/dmm-capacitance.png" alt-text="Black polarized capacitor symbol consisting of two parallel plates, one curved on the left and one straight on the right, with horizontal lines extending outward from each plate. The symbol represents a polarized capacitor, with the curved plate indicating the negative terminal and the straight plate indicating the positive terminal." width="50"> | **Capacitance.** Use this port when measuring capacitance. Be sure that the cable is in the port with the corresponding symbol, and that the symbol is selected on the dial. Many capacitors are polarized; if they are, be sure to connect the red probe to the positive side of the capacitor. **Be sure that the capacitor has been removed from your circuit before you measure it.** |
+| <img src="./img/dmm-diode.png" alt-text="Black diode testing symbol consisting of a triangle-like arrowhead pointing toward a vertical line, with short horizontal lines extending from both sides. The symbol indicates the diode testing function on a digital multimeter, used to measure the forward voltage drop across a diode." width="50"> |  **Diode.** Use this port to test the direction of a diode. Since diodes are polarized, current will only flow in one direction. The DMM will indicate whether current is flowing or not when you connect the diode across the probes. If current flows, the red probe side indicates the positive terminal. **Be sure that the diode has been removed from your circuit before measure it.** |
+| <img src="./img/dmm-vzlow.png" alt-text="Black VZLOW symbol consisting of a capital letter V followed by “ZLOW” enclosed in a rectangular outline." width="75"> | **Low impedence voltage measurement, or "LoZ."** This function measures AC or DC voltage using a low input impedance to reduce false readings caused by ghost voltages (induced voltages from nearby electrical wires). It helps distinguish actual voltage from stray electrical signals. We will not be using this function in the course. |
+
+The following table describes some of the secondary functions that may be available in your DMM. These are typically accessed selecting the **Shift** button while the option is selected on the dial. To leave the secondary function, select **Exit**.
+
+| Symbols | Description |
+| :--: | :-- |
+| <img src="> ||
+
+
+Each meter has measurement limits in voltage and current beyond which the meter will be damaged. For the DMMs supplied in this lab, the maximum voltage input is 600 V, while the maximum current input (when the correct settings are in place) is 10 A.
+
+### How to Measure Resistance
 
 Watch the following videos on digital multimeters and measuring resistance: 
 Measure Resistance - Video 1
@@ -329,9 +350,13 @@ As you make your measurements, keep in mind that if your fingers are touching th
 
 TIP!	In order to accurately measure the value of the resistor, be sure that it is not powered and it is disconnected from any circuitry.
 
-Complete Activity 4: Measuring Resistance
+<div class="e22-lab-activity" markdown="1">
 
-How to Measure Voltage
+### Complete Activity 4: Measuring Resistance
+
+</div>
+
+### How to Measure Voltage
 
 Watch the following video on using your DMM to measure voltage:
 Measure voltage using your digital multimeter
@@ -348,24 +373,30 @@ The alligator clip probes can help in attaching the probes to your circuit. It c
 
 TIP!	Note that we place the DMM in parallel to the element when we wish to measure the voltage.
 
-Complete Activity 5: Measure Voltage
 
-How to Measure Current
+<div class="e22-lab-activity" markdown="1">
+
+### Complete Activity 5: Measure Voltage
+
+</div>
+
+### How to Measure Current
 
 Watch the following video on measuring current using your DMM:
 Measure current using your digital multimeter
 
 In order to measure the current, you will need to reconfigure your DMM to measure current. For current measurements, the circuit must be temporarily broken in order for the current to go through the DMM. Keep in mind that in current measurement mode, the DMM has little-to-no resistance, so plugging your DMM in parallel with a component can cause damage to it. An example of a circuit to measure current I2 that passes through R2 is shown below.
 
- 
-
 Circuit Diagram 2
 TIP!	Note that we place the DMM in series to the element when we wish to measure the current.
 
-Complete Activity 6: Measure Current
+<div class="e22-lab-activity" markdown="1">
 
+### Complete Activity 6: Measure Current
 
-Digital Multimeter Tips
+</div>
+
+### Digital Multimeter Tips
 
 Here are some extra guidelines to help you with using your DMM:
 	Always power down the circuit before measuring resistance with a DMM.
@@ -385,5 +416,6 @@ AVOID THIS CONNECTION in AMMETER MODE:
 
 
 
-Workstation Cleanup 
+## Workstation Cleanup 
+
 Turn off the DMM, turn off power to your circuit, put all wires and components back in their bins, return circuit kits to the cart and upload your completed datasheet to the submission site.
