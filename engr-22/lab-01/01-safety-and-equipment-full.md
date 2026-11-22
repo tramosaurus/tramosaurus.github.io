@@ -311,7 +311,7 @@ You will be building some circuits to show that you understand how to properly u
 A DMM is a very important tool for electricians and electrical engineers. Depending on the model and the specifications, a DMM can be used to measure multiple parameters, including voltage, resistance, current, continuity, capacitance, and temperature. 
 
 {% include figure.html
-   src="./img/power-terminal.png"
+   src="./img/xx.png"
    alt="Need alt text."
    caption="Figure 11. Two different digital multimeters, the Keysight multimeter (left) and the Tacklife multimeter (right)." %}
 
@@ -319,13 +319,18 @@ A DMM is a very important tool for electricians and electrical engineers. Depend
 
 In our lab, we have a mixed assortment of multimeters, shown in Figure 11. All measure voltage, while only some measure current. You will need to use a black and red cable to connect the ports to your board. In our class, we typically use **banana plugs** with **alligator clips** to connect to our board, as the standard multimeter probes are too big for the breadboard holes.
 
+### Digital Multimeter Functions
+
 Read about each of the symbols that represent the main functions found on a multimeter below.
+
+*Table 5: Common symbols found on a digital multimeter and its functions.*
+{: .table-caption}
 
 | Symbols | Description |
 | :--: | :-- |
 | **COM** | Short for **common**, this is the negative input of the multimeter. The black cable should be plugged into this port when you're making measurements. This cable should be connected to the side of the circuit that is closest to $0\text{ V}$ (or the negative side) when making measurements. Otherwise, your reading will be negative. |
 | <img src="./img/dmm-vdc.png" alt="Black DC voltage symbol consisting of a capital letter V next to a solid horizontal line above three short dashed lines, indicating the direct current (DC) voltage measurement setting on a digital multimeter." width="50"> | **VDC or direct current voltage.** If you want to measure DC voltage, you will want to place the red cable into this port, and select the corresponding symbol with the dial. The probe should be placed on the side of the circuit that is farthest from $0\text{ V}$ when making voltage measurements. **Note: you may see $\text{mV}$ or $\mu\text{V}$. Select the correct one based on the range of your expected voltage.** |
-| <img src="./img/dmm-adc.png" alt="Black DC current measurement symbol consisting of a solid horizontal line above three short dashed lines, positioned to the left of a capital letter A. The symbol indicates the direct current (DC) measurement setting in amperes on a digital multimeter." width="50"> | **ADC or direct current.** If you want to measure the current (units of $\text{A}$, or amps), you should place the red cable into this port, and select the corresponding symbol with the dial. The probe should be placed on the side of the circuit that is farthest from $0\text{ V}$ when making voltage measurements. **Note: you may see $\text{mA}$ or $\mu\text{A}$. Select the correct port and the corresponding dial choice based on the range of your expected current. You may wish to start with the biggest range ($\text{A}$) and work your way down, to prevent damaging the built-in fuse.** |
+| <img src="./img/dmm-adc.png" alt="Black DC current measurement symbol consisting of a solid horizontal line above three short dashed lines, positioned to the left of a capital letter A. The symbol indicates the direct current (DC) measurement setting in amperes on a digital multimeter." width="50"> | **ADC or direct current.** If you want to measure the current (units of $\text{A}$, or amps), you should place the red cable into this port, and select the corresponding symbol with the dial. The probe should be placed on the side of the circuit that is farthest from $0\text{ V}$ when making current measurements. **Note: you may see $\text{mA}$ or $\mu\text{A}$. Select the correct port and the corresponding dial choice based on the range of your expected current. You may wish to start with the biggest range ($\text{A}$) and work your way down, to prevent damaging the built-in fuse.** |
 | <img src="./img/dmm-resistance.png" alt-text="Symbol for resistance, which is a capital omega." width="50"> | **Resistance.** Use this port when measuring resistance. Be sure that the cable is in the port with the corresponding symbol, and that the symbol is selected on the dial. Resistors do not have polarity, so you can place the probes on either ends of the resistor. **Be sure that the resistor has been removed from your circuit before you measure it.** |
 | <img src="./img/dmm-capacitance.png" alt-text="Black polarized capacitor symbol consisting of two parallel plates, one curved on the left and one straight on the right, with horizontal lines extending outward from each plate. The symbol represents a polarized capacitor, with the curved plate indicating the negative terminal and the straight plate indicating the positive terminal." width="50"> | **Capacitance.** Use this port when measuring capacitance. Be sure that the cable is in the port with the corresponding symbol, and that the symbol is selected on the dial. Many capacitors are polarized; if they are, be sure to connect the red probe to the positive side of the capacitor. **Be sure that the capacitor has been removed from your circuit before you measure it.** |
 | <img src="./img/dmm-diode.png" alt-text="Black diode testing symbol consisting of a triangle-like arrowhead pointing toward a vertical line, with short horizontal lines extending from both sides. The symbol indicates the diode testing function on a digital multimeter, used to measure the forward voltage drop across a diode." width="50"> |  **Diode.** Use this port to test the direction of a diode. Since diodes are polarized, current will only flow in one direction. The DMM will indicate whether current is flowing or not when you connect the diode across the probes. If current flows, the red probe side indicates the positive terminal. **Be sure that the diode has been removed from your circuit before measure it.** |
@@ -333,22 +338,38 @@ Read about each of the symbols that represent the main functions found on a mult
 
 The following table describes some of the secondary functions that may be available in your DMM. These are typically accessed selecting the **Shift** button while the option is selected on the dial. To leave the secondary function, select **Exit**.
 
+*Table 6: Less common symbols found on a digital multimeter and its uses.*
+{: .table-caption}
+
 | Symbols | Description |
 | :--: | :-- |
-| <img src="> ||
+| <img src="./img/dmm-continuity.png" alt-text="Black continuity testing symbol consisting of three curved lines resembling sound waves, increasing in size from left to right. The symbol indicates the continuity testing function on a digital multimeter, which produces an audible beep when a continuous electrical path with sufficiently low resistance is detected." width="50"> | **Continuity tester.** This option is used to test whether two ends nodes are short-circuited. When the two nodes are connected, the DMM will make an audible sound. For some models, the DMM will also flash a light. |
+| <img src="./img/dmm-hz.jpg" alt-text="Hz, or Hertz, the unit for frequency." width="50"> | **Frequency.** This mode will display the frequency of the AC signal. |
+| <img src="./img/dmm-adc.png" alt-text="Black AC frequency measurement symbol consisting of a wavy line (tilde) positioned to the left of the letters Hz. The wavy line represents alternating current, or AC." width="50"> | **RMS Current.** This will measure the True RMS current of an AC signal. If you want to measure the current (units of $\text{A}$, or amps), you should place the red cable into this port, and select the corresponding symbol with the dial. **Note: you may see $\text{mA}$ or $\mu\text{A}$. Select the correct port and the corresponding dial choice based on the range of your expected current. You may wish to start with the biggest range ($\text{A}$) and work your way down, to prevent damaging the built-in fuse.** |
+| <img src="./img/dmm-temperature.png" alt-text="Temperature measurement symbol depicting a vertical thermometer with a rounded bulb at the bottom and a narrow tube extending upward." width="30"> | **Temperature.** Some of the DMMs are equipped with the ability to measure temperature. These typically require a special probe to be installed the ports. |
 
+### Digital Multimeter Current and Voltage Limits
 
-Each meter has measurement limits in voltage and current beyond which the meter will be damaged. For the DMMs supplied in this lab, the maximum voltage input is 600 V, while the maximum current input (when the correct settings are in place) is 10 A.
+Each meter has measurement limits in voltage and current beyond which the meter will be damaged. 
+
+<div class="tip" markdown="1">
+
+**For the DMMs supplied in this lab, the maximum voltage input is 600 V, while the maximum current input (when the correct settings are in place) is 10 A.**
+
+</div>
 
 ### How to Measure Resistance
 
 Watch the following videos on digital multimeters and measuring resistance: 
-Measure Resistance - Video 1
-Measure Resistance - Video 2 [TD6.1]
+{{ site.fixme }}
 
 As you make your measurements, keep in mind that if your fingers are touching the leads you may distort the resistance measurement. You may find it easier to plug the resistor across two rows in your breadboard so you can connect the leads without touching them.
 
-TIP!	In order to accurately measure the value of the resistor, be sure that it is not powered and it is disconnected from any circuitry.
+<div class="tip" markdown="1">
+
+**In order to accurately measure the value of the resistor, be sure that it is not powered and it is disconnected from any circuitry.**
+
+</div>
 
 <div class="e22-lab-activity" markdown="1">
 
@@ -365,14 +386,19 @@ Your Analog Discovery 2 (old model) can also measure voltage (but not current). 
 
 When you want to measure voltage, be sure to switch the device of your choosing to measure DC (direct current) voltage, as indicated by the symbol  . You can measure the voltage any element making up the circuit by touching the V probe to an exposed wire on the “+” side and the COM probe to an exposed wire on the “–” side of each one. An example of a measurement of the voltage across R2 is shown below.
 
- 
+{% include figure.html
+   src="./img/xx.png"
+   alt="Need alt text."
+   caption="Circuit Diagram 1." %}
 
 Circuit Diagram 1
 The alligator clip probes can help in attaching the probes to your circuit. It can also be helpful to connect a small wire to the end of an alligator clip to probe into the breadboard at the desired points.
 
+<div class="tip" markdown="1">
 
-TIP!	Note that we place the DMM in parallel to the element when we wish to measure the voltage.
+**Note that we place the DMM in parallel to the element when we wish to measure the voltage.**
 
+</div>
 
 <div class="e22-lab-activity" markdown="1">
 
@@ -387,8 +413,16 @@ Measure current using your digital multimeter
 
 In order to measure the current, you will need to reconfigure your DMM to measure current. For current measurements, the circuit must be temporarily broken in order for the current to go through the DMM. Keep in mind that in current measurement mode, the DMM has little-to-no resistance, so plugging your DMM in parallel with a component can cause damage to it. An example of a circuit to measure current I2 that passes through R2 is shown below.
 
-Circuit Diagram 2
-TIP!	Note that we place the DMM in series to the element when we wish to measure the current.
+{% include figure.html
+   src="./img/xx.png"
+   alt="Need alt text."
+   caption="Circuit Diagram 2." %}
+
+<div class="tip" markdown="1">
+
+**Note that we place the DMM in series to the element when we wish to measure the current.**
+
+</div>
 
 <div class="e22-lab-activity" markdown="1">
 
@@ -399,22 +433,25 @@ TIP!	Note that we place the DMM in series to the element when we wish to measure
 ### Digital Multimeter Tips
 
 Here are some extra guidelines to help you with using your DMM:
-	Always power down the circuit before measuring resistance with a DMM.
-	To measure the resistance of a single component embedded in a larger circuit, disconnect at least one side of the component from the rest of the circuit; otherwise, parallel current paths may provide incorrect readings.
-	Voltage measurements are made parallel to the components being measured.
-	Current measurements are made in series and always require temporarily breaking the circuit to insert the DMM into the current path. Be sure to check that the probes are connected to the correct ports.
+- Always power down the circuit before measuring resistance with a DMM.
+- To measure the resistance of a single component embedded in a larger circuit, disconnect at least one side of the component from the rest of the circuit; otherwise, parallel current paths may provide incorrect readings.
+- Voltage measurements are made parallel to the components being measured.
+- Current measurements are made in series and always require temporarily breaking the circuit to insert the DMM into the current path. Be sure to check that the probes are connected to the correct ports.
 
-   Warning   
+<div class="warning" markdown="1">
 
-Never connect a DMM in ammeter mode across a resistor or voltage source.
+**Warning:** Never connect a DMM in ammeter mode across a resistor or voltage source.
 Since the ammeter acts like a short circuit, this connection would damage 
 the meter or possibly blow a fuse that would need to be replaced.
 
 AVOID THIS CONNECTION in AMMETER MODE:
 
- 
+ {% include figure.html
+   src="./img/xx.png"
+   alt="Need alt text."
+   caption="Figure 12. Incorrect connection." %}
 
-
+</div>
 
 ## Workstation Cleanup 
 
