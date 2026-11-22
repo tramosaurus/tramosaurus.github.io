@@ -6,11 +6,11 @@ author: "T. Dang"
 
 Site URL: {{ site.url}}
 
-Base URL: {{site.baseurl}}
+Base URL: {{site.baseurl }}
 
 Page URL: {{ page.url }}
 
-Fixme: {{ fixme }}
+Fixme: {{ site.fixme }}  ![Fix Me!](/assets/img/fixme.svg)
 
 ## Equipment Needed for This Lab
 From your kit:
@@ -86,7 +86,7 @@ Resistors marked with color bands come in two types: one with four color bands, 
 To figure out the resistance value of a four-band resistor, start by finding the gold or silver band, known as the tolerance band. Rotating the resistor so that the tolerance band is on the right side.
 
 {% include figure.html
-   src="./img/resistor-band.png"
+   src="../img/resistor-band.png"
    alt="The image shows a close-up of a four-band resistor. The resistor is oriented so that the right-most band is gold, which is the tolerance band. The first band is orange, the second band is blue, and the third band is brown. The color bands tell us that it's a 360 ohm resistor."
    caption="Figure 1. How to orient a resistor to read resistor band colors." %}
 
